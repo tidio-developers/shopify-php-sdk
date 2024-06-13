@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Service\ApplicationCreditService;
-use Shopify\Object\ApplicationCredit;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Service\ApplicationCreditService;
+use Robwittman\Shopify\Object\ApplicationCredit;
 
 class ApplicationCreditServiceTest extends TestCase
 {

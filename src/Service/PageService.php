@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Page;
+use Robwittman\Shopify\Object\Page;
 
 class PageService extends AbstractService
 {

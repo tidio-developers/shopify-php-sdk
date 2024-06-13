@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/customcollection
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CustomCollectionFields;
+use Robwittman\Shopify\Enum\Fields\CustomCollectionFields;
 
 class CustomCollection extends AbstractObject
 {

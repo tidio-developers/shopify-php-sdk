@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Transaction;
+use Robwittman\Shopify\Object\Transaction;
 
 class TransactionService extends AbstractService
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Customer;
-use Shopify\Object\CustomerInvite;
+use Robwittman\Shopify\Object\Customer;
+use Robwittman\Shopify\Object\CustomerInvite;
 class CustomerService extends AbstractService
 {
     /**

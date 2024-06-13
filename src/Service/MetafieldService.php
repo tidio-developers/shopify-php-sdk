@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Metafield;
+use Robwittman\Shopify\Object\Metafield;
 
 class MetafieldService extends AbstractService
 {

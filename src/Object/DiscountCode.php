@@ -39,9 +39,9 @@
  * @link    https://help.shopify.com/api/reference/discount
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\DiscountCodeFields;
+use Robwittman\Shopify\Enum\Fields\DiscountCodeFields;
 
 class DiscountCode extends AbstractObject
 {

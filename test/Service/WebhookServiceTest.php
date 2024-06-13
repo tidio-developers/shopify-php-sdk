@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Service\WebhookService;
-use Shopify\Object\Webhook;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Service\WebhookService;
+use Robwittman\Shopify\Object\Webhook;
 
 class WebhookServiceTest extends TestCase
 {

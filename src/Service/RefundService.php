@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Refund;
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Object\Refund;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 
 class RefundService extends AbstractService
 {

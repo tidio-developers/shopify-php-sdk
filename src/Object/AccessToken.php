@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
 class AccessToken
 {

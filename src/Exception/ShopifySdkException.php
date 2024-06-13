@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify\Exception;
+namespace Robwittman\Shopify\Exception;
 
 class ShopifySdkException extends \Exception
 {

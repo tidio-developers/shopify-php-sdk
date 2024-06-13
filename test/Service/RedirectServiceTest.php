@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Redirect;
-use Shopify\Service\RedirectService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Redirect;
+use Robwittman\Shopify\Service\RedirectService;
 
 class RedirectServiceTest extends TestCase
 {

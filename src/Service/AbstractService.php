@@ -1,11 +1,11 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Shopify\ApiInterface;
+use Robwittman\Shopify\ApiInterface;
 
 abstract class AbstractService
 {

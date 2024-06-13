@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify\Enum\Fields;
+namespace Robwittman\Shopify\Enum\Fields;
 
 class AbandonedCheckoutFields extends AbstractObjectEnum
 {

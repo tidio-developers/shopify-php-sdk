@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
 class GraphQLService extends AbstractService
 {

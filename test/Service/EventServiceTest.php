@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Event;
-use Shopify\Service\EventService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Event;
+use Robwittman\Shopify\Service\EventService;
 
 class EventServiceTest extends TestCase
 {

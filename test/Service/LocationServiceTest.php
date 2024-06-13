@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Location;
-use Shopify\Service\LocationService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Location;
+use Robwittman\Shopify\Service\LocationService;
 
 class LocationServiceTest extends TestCase
 {

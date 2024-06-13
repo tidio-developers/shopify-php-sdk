@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Country;
+use Robwittman\Shopify\Object\Country;
 
 class CountryService extends AbstractService
 {

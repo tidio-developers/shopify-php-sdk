@@ -31,9 +31,9 @@
  * @license MIT
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\AddressFields;
+use Robwittman\Shopify\Enum\Fields\AddressFields;
 
 class Address extends AbstractObject
 {

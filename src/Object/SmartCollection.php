@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/smartcollection
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\SmartCollectionFields;
+use Robwittman\Shopify\Enum\Fields\SmartCollectionFields;
 
 class SmartCollection extends AbstractObject
 {

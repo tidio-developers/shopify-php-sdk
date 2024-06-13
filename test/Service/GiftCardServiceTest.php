@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\GiftCard;
-use Shopify\Service\GiftCardService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\GiftCard;
+use Robwittman\Shopify\Service\GiftCardService;
 
 class GiftCardServiceTest extends TestCase
 {

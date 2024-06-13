@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/transaction
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\TransactionFields;
+use Robwittman\Shopify\Enum\Fields\TransactionFields;
 
 class Transaction extends AbstractObject
 {

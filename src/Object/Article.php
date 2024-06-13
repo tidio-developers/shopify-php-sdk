@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/article
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ArticleFields;
+use Robwittman\Shopify\Enum\Fields\ArticleFields;
 
 class Article extends AbstractObject
 {

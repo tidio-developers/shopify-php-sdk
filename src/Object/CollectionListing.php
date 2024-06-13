@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CollectionListingFields;
+use Robwittman\Shopify\Enum\Fields\CollectionListingFields;
 
 class CollectionListing extends AbstractObject
 {

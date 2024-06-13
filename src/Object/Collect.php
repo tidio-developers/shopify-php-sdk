@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/collect
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CollectFields;
+use Robwittman\Shopify\Enum\Fields\CollectFields;
 
 class Collect extends AbstractObject
 {

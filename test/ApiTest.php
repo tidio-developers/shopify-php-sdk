@@ -1,12 +1,12 @@
 <?php
 
-namespace Shopify\Test;
+namespace Robwittman\Shopify\Test;
 
-use Shopify\Api;
-use Shopify\Helper\OAuthHelper;
+use Robwittman\Shopify\Api;
+use Robwittman\Shopify\Helper\OAuthHelper;
 use GuzzleHttp\Client;
-use Shopify\Storage\MemoryStorage;
-use Shopify\Storage\SessionStorage;
+use Robwittman\Shopify\Storage\MemoryStorage;
+use Robwittman\Shopify\Storage\SessionStorage;
 
 class ApiTest extends TestCase
 {

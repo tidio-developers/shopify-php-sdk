@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\DiscountCode;
+use Robwittman\Shopify\Object\DiscountCode;
 
 class DiscountCodeService extends AbstractService
 {

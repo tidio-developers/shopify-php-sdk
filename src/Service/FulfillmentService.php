@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Fulfillment;
+use Robwittman\Shopify\Object\Fulfillment;
 
 class FulfillmentService extends AbstractService
 {

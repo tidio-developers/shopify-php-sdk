@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/product_variant
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ProductVariantFields;
+use Robwittman\Shopify\Enum\Fields\ProductVariantFields;
 
 class ProductVariant extends AbstractObject
 {

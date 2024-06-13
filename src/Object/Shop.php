@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/shop
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ShopFields;
+use Robwittman\Shopify\Enum\Fields\ShopFields;
 
 class Shop extends AbstractObject
 {

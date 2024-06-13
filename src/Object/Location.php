@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/location
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\LocationFields;
+use Robwittman\Shopify\Enum\Fields\LocationFields;
 
 class Location extends AbstractObject
 {

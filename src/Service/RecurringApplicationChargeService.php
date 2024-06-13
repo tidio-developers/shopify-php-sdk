@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\RecurringApplicationCharge;
+use Robwittman\Shopify\Object\RecurringApplicationCharge;
 
 class RecurringApplicationChargeService extends AbstractService
 {

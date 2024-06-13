@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/policy
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\PolicyFields;
+use Robwittman\Shopify\Enum\Fields\PolicyFields;
 
 class Policy extends AbstractObject
 {

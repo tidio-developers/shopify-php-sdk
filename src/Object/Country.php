@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/country
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CountryFields;
+use Robwittman\Shopify\Enum\Fields\CountryFields;
 
 class Country extends AbstractObject
 {

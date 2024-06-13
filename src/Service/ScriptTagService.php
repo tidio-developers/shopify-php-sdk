@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\ScriptTag;
+use Robwittman\Shopify\Object\ScriptTag;
 
 class ScriptTagService extends AbstractService
 {

@@ -33,9 +33,9 @@
  * @link    https://help.shopify.com/api/reference/comment
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CommentFields;
+use Robwittman\Shopify\Enum\Fields\CommentFields;
 
 class Comment extends AbstractObject
 {

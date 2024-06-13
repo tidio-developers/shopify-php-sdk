@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/fulfillment
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\FulfillmentFields;
+use Robwittman\Shopify\Enum\Fields\FulfillmentFields;
 
 class Fulfillment extends AbstractObject
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify;
+namespace Robwittman\Shopify;
 
 use GuzzleHttp\Client;
 use Psr\Log\LoggerInterface;
-use Shopify\Service\AbstractService;
+use Robwittman\Shopify\Service\AbstractService;
 
 abstract class AbstractApi implements ApiInterface
 {

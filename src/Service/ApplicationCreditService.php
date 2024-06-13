@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\ApplicationCredit;
+use Robwittman\Shopify\Object\ApplicationCredit;
 
 class ApplicationCreditService extends AbstractService
 {

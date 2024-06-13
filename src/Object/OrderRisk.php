@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/order_risks
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\OrderRiskFields;
+use Robwittman\Shopify\Enum\Fields\OrderRiskFields;
 
 class OrderRisk extends AbstractObject
 {

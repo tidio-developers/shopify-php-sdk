@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Service\ThemeService;
-use Shopify\Object\Theme;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Service\ThemeService;
+use Robwittman\Shopify\Object\Theme;
 
 class ThemeServiceTest extends TestCase
 {

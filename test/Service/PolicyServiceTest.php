@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Service\PolicyService;
-use Shopify\Object\Policy;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Service\PolicyService;
+use Robwittman\Shopify\Object\Policy;
 
 class PolicyServiceTest extends TestCase
 {

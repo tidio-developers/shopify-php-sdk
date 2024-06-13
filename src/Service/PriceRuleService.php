@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\PriceRule;
+use Robwittman\Shopify\Object\PriceRule;
 
 class PriceRuleService extends AbstractService
 {

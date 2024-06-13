@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
+use Robwittman\Shopify\Test\TestCase;
 
 class MetafieldServiceTest extends TestCase
 {

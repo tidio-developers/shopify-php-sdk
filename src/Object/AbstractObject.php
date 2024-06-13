@@ -31,10 +31,10 @@
  * @license MIT
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Exception\ShopifySdkException;
-use Shopify\Enum\Fields\AbstractObjectEnum;
+use Robwittman\Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Enum\Fields\AbstractObjectEnum;
 
 abstract class AbstractObject implements \JsonSerializable
 {

@@ -33,9 +33,9 @@
  * @link    https://help.shopify.com/api/reference/blog
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\BlogFields;
+use Robwittman\Shopify\Enum\Fields\BlogFields;
 
 class Blog extends AbstractObject
 {

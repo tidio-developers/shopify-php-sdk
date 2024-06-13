@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify\Enum;
+namespace Robwittman\Shopify\Enum;
 
 class FulfillmentStatus
 {

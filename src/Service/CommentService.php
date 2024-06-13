@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Comment;
+use Robwittman\Shopify\Object\Comment;
 
 class CommentService extends AbstractService
 {

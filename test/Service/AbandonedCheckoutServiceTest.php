@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Service\AbandonedCheckoutsService;
-use Shopify\Object\AbandonedCheckout;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Service\AbandonedCheckoutsService;
+use Robwittman\Shopify\Object\AbandonedCheckout;
 
 class AbandonedCheckoutServiceTest extends TestCase
 {

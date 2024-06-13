@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\User;
+use Robwittman\Shopify\Object\User;
 
 class UserService extends AbstractService
 {

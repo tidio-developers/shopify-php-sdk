@@ -33,9 +33,9 @@
  * @author  Rob Wittman <rob@ihsdigital.com>
  * @license MIT
  */
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\EventFields;
+use Robwittman\Shopify\Enum\Fields\EventFields;
 
 class Event extends AbstractObject
 {

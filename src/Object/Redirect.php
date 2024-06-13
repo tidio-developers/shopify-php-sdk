@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/redirect
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\RedirectFields;
+use Robwittman\Shopify\Enum\Fields\RedirectFields;
 
 class Redirect extends AbstractObject
 {

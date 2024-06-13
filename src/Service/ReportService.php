@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Report;
+use Robwittman\Shopify\Object\Report;
 
 class ReportService extends AbstractService
 {

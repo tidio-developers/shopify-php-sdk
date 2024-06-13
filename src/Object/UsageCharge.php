@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/usagecharge
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\UsageChargeFields;
+use Robwittman\Shopify\Enum\Fields\UsageChargeFields;
 
 class UsageCharge extends AbstractObject
 {

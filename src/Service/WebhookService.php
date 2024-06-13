@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Webhook;
+use Robwittman\Shopify\Object\Webhook;
 
 class WebhookService extends AbstractService
 {

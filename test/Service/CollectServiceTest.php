@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Collect;
-use Shopify\Service\CollectService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Collect;
+use Robwittman\Shopify\Service\CollectService;
 
 class CollectServiceTest extends TestCase
 {

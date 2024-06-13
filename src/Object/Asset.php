@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/asset
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\AssetFields;
+use Robwittman\Shopify\Enum\Fields\AssetFields;
 
 class Asset extends AbstractObject
 {

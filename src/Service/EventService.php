@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Event;
+use Robwittman\Shopify\Object\Event;
 
 class EventService extends AbstractService
 {

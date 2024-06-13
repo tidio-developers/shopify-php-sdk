@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Theme;
+use Robwittman\Shopify\Object\Theme;
 
 class ThemeService extends AbstractService
 {

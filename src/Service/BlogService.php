@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Blog;
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Object\Blog;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 
 class BlogService extends AbstractService
 {

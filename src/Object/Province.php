@@ -37,9 +37,9 @@
  * @link    https://help.shopify.com/api/reference/province
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ProvinceFields;
+use Robwittman\Shopify\Enum\Fields\ProvinceFields;
 
 class Province extends AbstractObject
 {

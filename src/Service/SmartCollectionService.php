@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\SmartCollection;
+use Robwittman\Shopify\Object\SmartCollection;
 
 class SmartCollectionService extends AbstractService
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\GiftCard;
+use Robwittman\Shopify\Object\GiftCard;
 
 class GiftCardService extends AbstractService
 {

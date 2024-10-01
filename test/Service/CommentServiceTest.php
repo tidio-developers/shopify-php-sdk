@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Comment;
-use Shopify\Service\CommentService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Comment;
+use Robwittman\Shopify\Service\CommentService;
 
 class CommentServiceTest extends TestCase
 {

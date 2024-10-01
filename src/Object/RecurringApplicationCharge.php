@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/recurringapplicationcharge
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\RecurringApplicationChargeFields;
+use Robwittman\Shopify\Enum\Fields\RecurringApplicationChargeFields;
 
 class RecurringApplicationCharge extends AbstractObject
 {

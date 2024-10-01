@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Collect;
+use Robwittman\Shopify\Object\Collect;
 
 class CollectService extends AbstractService
 {

@@ -33,9 +33,9 @@
  * @link    https://help.shopify.com/api/reference/refund
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\RefundFields;
+use Robwittman\Shopify\Enum\Fields\RefundFields;
 
 class Refund extends AbstractObject
 {

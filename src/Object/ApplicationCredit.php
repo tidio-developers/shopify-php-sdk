@@ -41,9 +41,9 @@
  * @link    https://help.shopify.com/api/reference/applicationcredit
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ApplicationCreditFields;
+use Robwittman\Shopify\Enum\Fields\ApplicationCreditFields;
 
 class ApplicationCredit extends AbstractObject
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\TaxLineFields;
+use Robwittman\Shopify\Enum\Fields\TaxLineFields;
 
 class TaxLine extends AbstractObject
 {

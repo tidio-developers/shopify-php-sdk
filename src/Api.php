@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify;
+namespace Robwittman\Shopify;
 
-use Shopify\Storage\PersistentStorageInterface;
-use Shopify\Storage\SessionStorage;
-use Shopify\Helper\OAuthHelper;
+use Robwittman\Shopify\Storage\PersistentStorageInterface;
+use Robwittman\Shopify\Storage\SessionStorage;
+use Robwittman\Shopify\Helper\OAuthHelper;
 use GuzzleHttp\Client;
 
 class Api extends AbstractApi

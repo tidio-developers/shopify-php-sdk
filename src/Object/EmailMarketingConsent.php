@@ -1,8 +1,8 @@
 <?php
 /**
- * Shopify\Object\Policy
+ * Shopify\Object\Address
  *
- * The list of policies that a merchant has configured for their store, such as their refund or privacy policies.
+ * Represents an Address object
  *
  * MIT License
  *
@@ -29,17 +29,16 @@
  * @package Shopify
  * @author  Rob Wittman <rob@ihsdigital.com>
  * @license MIT
- * @link    https://help.shopify.com/api/reference/policy
  */
 
 namespace Robwittman\Shopify\Object;
 
-use Robwittman\Shopify\Enum\Fields\PolicyFields;
+use Robwittman\Shopify\Enum\Fields\EmailMarketingConsentFields;
 
-class Policy extends AbstractObject
+class EmailMarketingConsent extends AbstractObject
 {
     public static function getFieldsEnum()
     {
-        return PolicyFields::getInstance();
+        return EmailMarketingConsentFields::getInstance();
     }
 }

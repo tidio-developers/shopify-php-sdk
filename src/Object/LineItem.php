@@ -31,9 +31,9 @@
  * @license MIT
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\LineItemFields;
+use Robwittman\Shopify\Enum\Fields\LineItemFields;
 
 class LineItem extends AbstractObject
 {

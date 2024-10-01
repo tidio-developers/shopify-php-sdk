@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/applicationcharge
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ApplicationChargeFields;
+use Robwittman\Shopify\Enum\Fields\ApplicationChargeFields;
 
 class ApplicationCharge extends AbstractObject
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\ProductImage;
+use Robwittman\Shopify\Object\ProductImage;
 
 class ProductImageService extends AbstractService
 {

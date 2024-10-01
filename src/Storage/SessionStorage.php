@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Storage;
+namespace Robwittman\Shopify\Storage;
 
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 
 class SessionStorage implements PersistentStorageInterface
 {

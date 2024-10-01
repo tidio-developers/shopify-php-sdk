@@ -20,7 +20,7 @@ You can now use the API key and secret to generate access tokens, which can then
 To initialize the Api Client:
 
 ```php
-$client = new Shopify\Api(array(
+$client = new Robwittman\Shopify\Api(array(
     'api_key' => '<api_key>',
     'api_secret' => '<api_secret>',
     'myshopify_domain' => 'store.myshopify.com',
@@ -30,7 +30,7 @@ $client = new Shopify\Api(array(
 
 If you are using a Private App for use on an individual store:
 ```php
-$client = new Shopify\PrivateApi(array(
+$client = new Robwittman\Shopify\PrivateApi(array(
     'api_key' => '<api-key>',
     'password' => '<password>',
     'shared_secret' => '<shared-secret>',
@@ -43,7 +43,7 @@ Once the client is initialized, you can then create a service, and use it to com
 ### Reading
 
 ```php
-$service = new Shopify\Service\ProductService($client);
+$service = new Robwittman\Shopify\Service\ProductService($client);
 $service->all(); #Fetch all products, with optional params
 $service->get($productId); # Get a single product
 $service->count(); # Count the resources
@@ -52,8 +52,8 @@ $service->count(); # Count the resources
 ### Creating
 
 ```php
-$service = new Shopify\Service\ProductService($client);
-$product = new Shopify\Object\Product();
+$service = new Robwittman\Shopify\Service\ProductService($client);
+$product = new Robwittman\Shopify\Object\Product();
 # Set some product fields
 $product->title = 'Test Product';
 $product->vendor = 'Printer';
@@ -64,7 +64,7 @@ $service->create($product);
 ### Updating
 
 ```php
-$service = new Shopify\Service\ProductService($client);
+$service = new Robwittman\Shopify\Service\ProductService($client);
 $product = $service->get($productId);
 # Set some product fields
 $product->title = 'Test Product';
@@ -75,7 +75,7 @@ $service->update($product);
 
 ### Deleting
 ```php
-$service = new Shopify\Service\ProductService($client);
+$service = new Robwittman\Shopify\Service\ProductService($client);
 $service->delete($productId);
 ```
 
@@ -83,7 +83,7 @@ $service->delete($productId);
 
 #### Query
 ```php
-$service = new Shopify\Service\GraphQLService($client);
+$service = new Robwittman\Shopify\Service\GraphQLService($client);
 $service->graph(
   '{
     products(query: "created_at:<2019", first: 5) {
@@ -100,7 +100,7 @@ $service->graph(
 
 #### Mutation
 ```php
-$service = new Shopify\Service\GraphQLService($client);
+$service = new Robwittman\Shopify\Service\GraphQLService($client);
 $service->graph(
   'mutation productCreate($input: ProductInput!){
     productCreate(input: $input) {
@@ -119,7 +119,7 @@ Authentication to Shopify's API is done through access tokens, which are obtaine
 token, there is a helper library packaged with this client
 
 ```php
-$client = new Shopify\Api($params);
+$client = new Robwittman\Shopify\Api($params);
 $helper = $client->getOAuthHelper();
 
 $redirectUri = 'https://localhost/install.php';
@@ -131,7 +131,7 @@ header("Location: {$authorizationUrl}");
 
 At your `redirect_uri`, instantiate the helper again to get an access token
 ```php
-$client = new Shopify\Api($params);
+$client = new Robwittman\Shopify\Api($params);
 $helper = $client->getOAuthHelper();
 
 $token = $helper->getAccessToken($code);
@@ -140,7 +140,7 @@ echo $token->scopes;
 ```
 
 By default, this uses simple session storage. You can implement a custom class that implements `PersistentStorageInterface`,
-pass that to `new Shopify\Api()`, and `OAuthHelper` will use that instead. This will be required if authorization requests and
+pass that to `new Robwittman\Shopify\Api()`, and `OAuthHelper` will use that instead. This will be required if authorization requests and
 redirects may be directed to different servers.
 
 ### Using objects
@@ -148,8 +148,8 @@ redirects may be directed to different servers.
 Object properties can be accessed using `object->property`. Nested objects are instantiated classes. All timestamp fields are instances of `\DateTime`.
 
 ```php
-use Shopify\Enum\Fields\ProductFields;
-use Shopify\Enum\Fields\ProductVariantFields;
+use Robwittman\Shopify\Enum\Fields\ProductFields;
+use Robwittman\Shopify\Enum\Fields\ProductVariantFields;
 
 $product = $service->get($productId);
 echo $product->created_at->format('Y-m-d H:i:s');

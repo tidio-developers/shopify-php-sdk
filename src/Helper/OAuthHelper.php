@@ -1,12 +1,12 @@
 <?php
 
-namespace Shopify\Helper;
+namespace Robwittman\Shopify\Helper;
 
-use Shopify\Api;
-use Shopify\Storage\PersistentStorageInterface;
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Api;
+use Robwittman\Shopify\Storage\PersistentStorageInterface;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 use GuzzleHttp\Psr7\Request;
-use Shopify\Object\AccessToken;
+use Robwittman\Shopify\Object\AccessToken;
 
 class OAuthHelper
 {

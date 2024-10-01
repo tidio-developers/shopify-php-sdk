@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/theme
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ThemeFields;
+use Robwittman\Shopify\Enum\Fields\ThemeFields;
 
 class Theme extends AbstractObject
 {

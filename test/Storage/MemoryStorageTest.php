@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Test\Storage;
+namespace Robwittman\Shopify\Test\Storage;
 
-use Shopify\Test\TestCase;
-use Shopify\Storage\MemoryStorage;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Storage\MemoryStorage;
 
 class MemoryStorageTest extends TestCase
 {

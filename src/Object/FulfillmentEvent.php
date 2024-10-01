@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/fulfillmentevent
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\FulfillmentEventFields;
+use Robwittman\Shopify\Enum\Fields\FulfillmentEventFields;
 
 class FulfillmentEvent extends AbstractObject
 {

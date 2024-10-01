@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify\Storage;
+namespace Robwittman\Shopify\Storage;
 
 class MemoryStorage implements PersistentStorageInterface
 {

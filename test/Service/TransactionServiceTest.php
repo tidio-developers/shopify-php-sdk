@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Transaction;
-use Shopify\Service\TransactionService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Transaction;
+use Robwittman\Shopify\Service\TransactionService;
 
 class TransactionServiceTest extends TestCase
 {

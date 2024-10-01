@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/scripttag
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ScriptTagFields;
+use Robwittman\Shopify\Enum\Fields\ScriptTagFields;
 
 class ScriptTag extends AbstractObject
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\PriceRuleFields;
+use Robwittman\Shopify\Enum\Fields\PriceRuleFields;
 
 class PriceRule extends AbstractObject
 {

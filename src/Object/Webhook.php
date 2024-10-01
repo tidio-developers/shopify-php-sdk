@@ -43,9 +43,9 @@
  * @link    https://help.shopify.com/api/reference/webhook
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\WebhookFields;
+use Robwittman\Shopify\Enum\Fields\WebhookFields;
 
 class Webhook extends AbstractObject
 {

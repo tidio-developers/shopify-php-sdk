@@ -19,8 +19,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Shopify\\" : "src/",
-            "Shopify\\Test\\" : "test/"
+            "Robwittman\\Shopify\\" : "src/",
+            "Robwittman\\Shopify\\Test\\" : "test/"
         },
         "files" : [
             "src/includes.php"

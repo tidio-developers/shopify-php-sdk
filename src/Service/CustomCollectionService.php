@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\CustomCollection;
+use Robwittman\Shopify\Object\CustomCollection;
 
 class CustomCollectionService extends AbstractService
 {

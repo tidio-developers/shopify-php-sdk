@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/order
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\OrderFields;
+use Robwittman\Shopify\Enum\Fields\OrderFields;
 
 class Order extends AbstractObject
 {

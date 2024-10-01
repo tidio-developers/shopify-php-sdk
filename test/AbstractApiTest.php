@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Test;
+namespace Robwittman\Shopify\Test;
 
-use Shopify\AbstractApi;
+use Robwittman\Shopify\AbstractApi;
 use Psr\Log\LoggerInterface;
 use GuzzleHttp\Client;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Policy;
+use Robwittman\Shopify\Object\Policy;
 
 class PolicyService extends AbstractService
 {

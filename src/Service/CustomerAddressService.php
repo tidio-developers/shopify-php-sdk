@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\CustomerAddress;
+use Robwittman\Shopify\Object\CustomerAddress;
 
 class CustomerAddressService extends AbstractService
 {

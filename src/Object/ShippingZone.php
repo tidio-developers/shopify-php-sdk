@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/shipping_zone
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ShippingZoneFields;
+use Robwittman\Shopify\Enum\Fields\ShippingZoneFields;
 
 class ShippingZone extends AbstractObject
 {

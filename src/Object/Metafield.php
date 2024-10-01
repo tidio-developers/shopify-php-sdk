@@ -32,9 +32,9 @@
  * @link    https://help.shopify.com/api/reference/metafield
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\MetafieldFields;
+use Robwittman\Shopify\Enum\Fields\MetafieldFields;
 
 class Metafield extends AbstractObject
 {

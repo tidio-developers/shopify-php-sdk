@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\ApplicationCharge;
+use Robwittman\Shopify\Object\ApplicationCharge;
 
 class ApplicationChargeService extends AbstractService
 {

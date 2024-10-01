@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CustomerInviteFields;
+use Robwittman\Shopify\Enum\Fields\CustomerInviteFields;
 
 class CustomerInvite extends AbstractObject
 {

@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/gift_card
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\GiftCardFields;
+use Robwittman\Shopify\Enum\Fields\GiftCardFields;
 
 class GiftCard extends AbstractObject
 {

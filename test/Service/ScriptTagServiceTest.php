@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\ScriptTag;
-use Shopify\Service\ScriptTagService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\ScriptTag;
+use Robwittman\Shopify\Service\ScriptTagService;
 
 class ScriptTagServiceTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Asset;
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Object\Asset;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 
 class AssetService extends AbstractService
 {

@@ -35,9 +35,9 @@
  * @link    https://help.shopify.com/api/reference/page
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\PageFields;
+use Robwittman\Shopify\Enum\Fields\PageFields;
 
 class Page extends AbstractObject
 {

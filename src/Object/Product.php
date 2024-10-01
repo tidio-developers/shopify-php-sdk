@@ -36,9 +36,9 @@
  * @link    https://help.shopify.com/api/reference/product
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ProductFields;
+use Robwittman\Shopify\Enum\Fields\ProductFields;
 
 class Product extends AbstractObject
 {

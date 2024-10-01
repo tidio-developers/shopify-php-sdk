@@ -35,9 +35,9 @@
  * @license MIT
  * @link    https://help.shopify.com/api/reference/customer
  */
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CustomerFields;
+use Robwittman\Shopify\Enum\Fields\CustomerFields;
 
 class Customer extends AbstractObject
 {

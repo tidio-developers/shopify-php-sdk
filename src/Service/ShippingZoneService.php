@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\ShippingZone;
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Object\ShippingZone;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 
 class ShippingZoneService extends AbstractService
 {

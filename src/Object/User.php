@@ -30,9 +30,9 @@
  * @link    https://help.shopify.com/api/reference/user
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\UserFields;
+use Robwittman\Shopify\Enum\Fields\UserFields;
 
 class User extends AbstractObject
 {

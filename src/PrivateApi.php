@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopify;
+namespace Robwittman\Shopify;
 
 use GuzzleHttp\Client;
 

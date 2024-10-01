@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ShippingLineFields;
+use Robwittman\Shopify\Enum\Fields\ShippingLineFields;
 
 class ShippingLine extends AbstractObject
 {

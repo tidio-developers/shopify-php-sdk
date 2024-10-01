@@ -33,9 +33,9 @@
  * @link    https://help.shopify.com/api/reference/product_image
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ProductImageFields;
+use Robwittman\Shopify\Enum\Fields\ProductImageFields;
 
 class ProductImage extends AbstractObject
 {

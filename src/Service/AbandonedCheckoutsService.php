@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\AbandonedCheckout;
+use Robwittman\Shopify\Object\AbandonedCheckout;
 
 class AbandonedCheckoutsService extends AbstractService
 {

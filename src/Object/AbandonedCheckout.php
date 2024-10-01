@@ -34,9 +34,9 @@
  * @link    https://help.shopify.com/api/reference/abandoned_checkouts
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\AbandonedCheckoutFields;
+use Robwittman\Shopify\Enum\Fields\AbandonedCheckoutFields;
 
 class AbandonedCheckout extends AbstractObject
 {

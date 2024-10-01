@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Country;
-use Shopify\Service\CountryService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Country;
+use Robwittman\Shopify\Service\CountryService;
 
 class CountryServiceTest extends TestCase
 {

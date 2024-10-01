@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Province;
+use Robwittman\Shopify\Object\Province;
 
 class ProvinceService extends AbstractService
 {

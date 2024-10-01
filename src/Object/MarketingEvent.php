@@ -37,9 +37,9 @@
  * @license MIT
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\MarketingEventFields;
+use Robwittman\Shopify\Enum\Fields\MarketingEventFields;
 
 class MarketingEvent extends AbstractObject
 {

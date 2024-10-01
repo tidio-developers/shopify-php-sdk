@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Service;
+namespace Robwittman\Shopify\Test\Service;
 
-use Shopify\Test\TestCase;
-use Shopify\Object\Refund;
-use Shopify\Service\RefundService;
+use Robwittman\Shopify\Test\TestCase;
+use Robwittman\Shopify\Object\Refund;
+use Robwittman\Shopify\Service\RefundService;
 
 class RefundServiceTest extends TestCase
 {

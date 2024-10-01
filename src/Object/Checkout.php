@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\CheckoutFields;
+use Robwittman\Shopify\Enum\Fields\CheckoutFields;
 
 class Checkout extends AbstractObject
 {

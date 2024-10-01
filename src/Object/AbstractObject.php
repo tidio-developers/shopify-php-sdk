@@ -31,10 +31,10 @@
  * @license MIT
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Exception\ShopifySdkException;
-use Shopify\Enum\Fields\AbstractObjectEnum;
+use Robwittman\Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Enum\Fields\AbstractObjectEnum;
 
 abstract class AbstractObject implements \JsonSerializable
 {
@@ -150,14 +150,14 @@ abstract class AbstractObject implements \JsonSerializable
             if (substr($type, -2) == '[]') {
                 return array_map(
                     function ($data) use ($type) {
-                        $className = '\\Shopify\\Object\\'.str_replace('[]', '', $type);
+                        $className = '\\Robwittman\\Shopify\\Object\\'.str_replace('[]', '', $type);
                         $obj = new $className();
                         $obj->setData($data);
                         return $obj;
                     }, $value
                 );
             } else {
-                $className = '\\Shopify\\Object\\'.$type;
+                $className = '\\Robwittman\\Shopify\\Object\\'.$type;
                 $obj = new $className();
                 $obj->setData($value);
                 return $obj;
@@ -186,13 +186,13 @@ abstract class AbstractObject implements \JsonSerializable
         }
         if (substr($type, -2) == '[]') {
             foreach ($value as $obj) {
-                if (!is_a($obj, '\\Shopify\\Object\\'.str_replace('[]', '', $type))) {
+                if (!is_a($obj, '\\Robwittman\\Shopify\\Object\\'.str_replace('[]', '', $type))) {
                     return false;
                 }
             }
             return true;
         } else {
-            return is_a($value, '\\Shopify\\Object\\'.$type);
+            return is_a($value, '\\Robwittman\\Shopify\\Object\\'.$type);
         }
     }
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\MarketingEvent;
-use Shopify\Exception\ShopifySdkException;
+use Robwittman\Shopify\Object\MarketingEvent;
+use Robwittman\Shopify\Exception\ShopifySdkException;
 
 class MarketingEventService extends AbstractService
 {

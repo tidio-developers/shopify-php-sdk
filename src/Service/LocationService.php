@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Location;
+use Robwittman\Shopify\Object\Location;
 
 class LocationService extends AbstractService
 {

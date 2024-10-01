@@ -32,9 +32,9 @@
  * @license MIT
  */
 
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ProductOptionFields;
+use Robwittman\Shopify\Enum\Fields\ProductOptionFields;
 
 class ProductOption extends AbstractObject
 {

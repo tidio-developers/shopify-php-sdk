@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Service;
+namespace Robwittman\Shopify\Service;
 
-use Shopify\Object\Redirect;
+use Robwittman\Shopify\Object\Redirect;
 
 class RedirectService extends AbstractService
 {

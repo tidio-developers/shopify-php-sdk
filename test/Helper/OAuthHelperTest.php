@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopify\Test\Helper;
+namespace Robwittman\Shopify\Test\Helper;
 
-use Shopify\Api;
-use Shopify\Helper\OAuthHelper;
-use Shopify\Test\TestCase;
+use Robwittman\Shopify\Api;
+use Robwittman\Shopify\Helper\OAuthHelper;
+use Robwittman\Shopify\Test\TestCase;
 
 class OAuthHelperTest extends TestCase
 {

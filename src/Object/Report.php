@@ -34,9 +34,9 @@
  * @license MIT
  * @link    https://help.shopify.com/api/reference/report
  */
-namespace Shopify\Object;
+namespace Robwittman\Shopify\Object;
 
-use Shopify\Enum\Fields\ReportFields;
+use Robwittman\Shopify\Enum\Fields\ReportFields;
 
 class Report extends AbstractObject
 {

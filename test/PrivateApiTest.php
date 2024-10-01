@@ -1,8 +1,8 @@
 <?php
 
-namespace Shopify\Test;
+namespace Robwittman\Shopify\Test;
 
-use Shopify\PrivateApi;
+use Robwittman\Shopify\PrivateApi;
 use GuzzleHttp\Client;
 
 class PrivateApiTest extends TestCase

@@ -4,6 +4,9 @@ namespace Robwittman\Shopify\Service;
 
 use Robwittman\Shopify\Object\ProductVariant;
 
+/**
+ *  @deprecated deprecated since API version 2024-04
+ */
 class ProductVariantService extends AbstractService
 {
     /**
@@ -66,7 +69,9 @@ class ProductVariantService extends AbstractService
         $data = $productVariant->exportData();
         $endpoint = 'products/'.$productId.'/variants.json';
         $response = $this->request(
-            $endpoint, 'POST', array(
+            $endpoint,
+            'POST',
+            array(
             'variant' => $data
             )
         );
@@ -85,7 +90,9 @@ class ProductVariantService extends AbstractService
         $data = $productVariant->exportData();
         $endpoint = 'variants/'.$productVariant->id.'.json';
         $response = $this->request(
-            $endpoint, 'PUT', array(
+            $endpoint,
+            'PUT',
+            array(
             'variant' => $data
             )
         );

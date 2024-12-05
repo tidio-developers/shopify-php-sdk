@@ -4,6 +4,9 @@ namespace Robwittman\Shopify\Service;
 
 use Robwittman\Shopify\Object\Product;
 
+/**
+ *  @deprecated deprecated since API version 2024-04
+ */
 class ProductService extends AbstractService
 {
     /**
@@ -65,7 +68,9 @@ class ProductService extends AbstractService
         $data = $product->exportData();
         $endpoint = 'products.json';
         $response = $this->request(
-            $endpoint, 'POST', array(
+            $endpoint,
+            'POST',
+            array(
             'product' => $data
             )
         );
@@ -84,7 +89,9 @@ class ProductService extends AbstractService
         $data = $product->exportData();
         $endpoint = 'products/'.$product->id.'.json';
         $response = $this->request(
-            $endpoint, 'PUT', array(
+            $endpoint,
+            'PUT',
+            array(
             'product' => $data
             )
         );
